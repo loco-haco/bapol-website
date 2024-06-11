@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.carousel-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-image-wrapper img {
+  max-width: 40%; /* Adjust the width to 80% of the container */
+  height: auto;
+  object-fit: contain;
+}
